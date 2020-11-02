@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+
+*{
+    font-family: 'Turret Road', cursive;
+}
+#number-guess, #result, #history {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#history li{
+    margin-top: 16px;
+}
+#history li{
+    background-color: black!important;
+    color: rgb(0, 247, 255);
+    border: 1px solid rgb(0, 247, 255);;
+}
+.navbar{
+    background-color: black!important;
+    border-bottom: 1px solid rgb(0, 247, 255);
+}
+.navbar a{
+    color: rgb(0, 247, 255)!important;
+}
+body{
+    background-color: black!important;
+}
+#number-guess{
+    background-color: black!important;
+    border: 1px solid rgb(0, 247, 255);
+    color:rgb(0, 247, 255);
+    text-shadow: 0 0 10px rgb(0, 247, 255);
+}
+#number-guess::placeholder {
+    color: rgba(0, 247, 255, 0.33);
+    text-shadow: 0 0 0px  rgba(0, 247, 255, 0.33);
+  }
+.banner {
+    color:rgb(0, 247, 255);
+    text-shadow: 0 0 10px rgb(0, 247, 255);
+    font-size: 3rem;
+    font-weight: bold;
+}
+#number-submit, #restart-game{
+    width: 150px;
+    margin: 5px;
+    border: 1px solid rgb(0, 247, 255);
+    transition: .5s;
+    border-radius: 30px;
+}
+#number-submit{
+    background-color: rgb(0, 247, 255);
+    color: black;
+}
+#number-submit:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(0, 247, 255);
+}
+#restart-game{
+    background-color: black!important;
+    color: rgb(0, 247, 255);
+}
+#restart-game:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(0, 247, 255);
+}
+.alert-danger{
+    background-color: red;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+.alert-success{
+    background-color: rgb(43, 255, 0);
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgb(43, 255, 0);
+}
