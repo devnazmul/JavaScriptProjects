@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cousine:wght@400;700&family=Great+Vibes&family=Montserrat+Alternates:wght@300&family=Sacramento&display=swap');
+*{
+  font-family: 'Cousine', monospace;
+}
+body{
+  background-color: black;
+}
+.banner1{
+  animation: colorRotate 5s linear infinite;
+  margin-bottom: 30px;
+}
+#text-output {
+  min-height: 200px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  color: rgb(0, 187, 255);
+  text-shadow:  0 0 10px rgb(0, 187, 255);
+  background: black;
+  border: 1px solid rgb(0, 187, 255);
+  box-shadow: 0 0 10px rgb(0, 187, 255);
+}
+#text-input {
+  color: rgb(255, 0, 0);
+  text-shadow:  0 0 10px rgb(255, 0, 0);
+  min-height: 200px;
+  background:black;
+  border: 1px solid rgba(255, 0, 0, 0.994);
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+#bold, #italic, #underline{
+  margin: 5px 10px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background:black;
+  color: rgba(255, 0, 0, 0.994);
+  border: 2px solid rgba(255, 0, 0, 0.994);
+  outline: none;
+}
+.act1{
+  color: black!important;
+  background:rgba(255, 0, 0, 0.994)!important;
+  box-shadow: 0 0 15px rgb(255, 0, 0);
+}
+
+#left-align, #center-align, #right-align{
+  margin: 5px 10px;
+  padding: 10px 15px;
+  color: rgb(0, 187, 255);
+  border-radius: 5px;
+  background: black;
+  border: 2px solid rgb(0, 187, 255);
+  outline: none;
+}
+.act2{
+  color: black!important;
+  background:rgb(0, 187, 255)!important;
+  box-shadow: 0 0 15px rgb(0, 187, 255);
+}
+
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+    text-shadow: 0 0 8px #6666ff;
+  }
+  10% {
+    color: #0099ff;
+    text-shadow: 0 0 8px #0099ff;
+  }
+  50% {
+    color: #00ff00;
+    text-shadow: 0 0 8px  #00ff00;
+  }
+  75% {
+    color: #ff3399;
+    text-shadow: 0 0 8px#ff3399;
+  }
+  100% {
+    color: #6666ff;
+    text-shadow: 0 0 8px #6666ff;
+  }
+}
